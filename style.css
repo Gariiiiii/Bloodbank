@@ -1,0 +1,28 @@
+body{
+    background-color: lavender;
+}
+
+.navbar {
+    background-color: #a181e2;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .dropdown-toggle {
+    font-weight: bolder;
+}
+
+.navbar-collapse {
+    justify-content: flex-end; /* Align items to the end of the flex container */
+    margin-right: 5rem;
+}
+
+.navbar-nav {
+    flex-direction: row; /* Align items horizontally */
+}
+
+.navbar-nav .nav-item {
+    margin-left: 1.5rem; /* Add some space between the navigation items */
+}
+
+  

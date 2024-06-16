@@ -14,3 +14,6 @@ Welcome to the Blood Bank System project repository! This web application facili
 - **Frontend:** HTML, CSS, Bootstrap, JavaScript
 - **Backend:** PHP
 - **Database:** MySQL
+
+- ## Preview
+https://garimadev.000webhostapp.com/

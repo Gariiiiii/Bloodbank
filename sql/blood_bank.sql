@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 15, 2024 at 10:24 AM
+-- Generation Time: Jun 16, 2024 at 09:11 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -69,16 +69,16 @@ CREATE TABLE `bb_hospital` (
 --
 
 INSERT INTO `bb_hospital` (`hospital_id`, `hospital_name`, `username`, `password`, `mobile`, `datetime`, `status`) VALUES
-(1, 'Hospital XYZ', 'hospitalxyz', 'pass456', 9876543210, '2024-06-13 19:14:22', 1),
-(2, 'Community Hospital', 'communityhospital', 'abc123', 5551234567, '2024-06-13 19:14:22', 1),
-(3, 'City Medical Center', 'citymedcenter', 'xyz789', 3339876543, '2024-06-13 19:14:22', 1),
-(4, 'County General', 'countygeneral', 'password', 1112223333, '2024-06-13 19:14:22', 1),
-(5, 'Metro Hospital', 'metrohospital', 'secure123', 4445556666, '2024-06-13 19:14:22', 1),
-(6, 'Unity Medical Center', 'unitymedical', 'hospital123', 8889990000, '2024-06-13 19:14:22', 1),
-(7, 'Sunrise Hospital', 'sunrisehospital', 'sun123', 7778889999, '2024-06-13 19:14:22', 1),
-(8, 'Hope Medical Center', 'hopemedical', 'hope456', 2223334444, '2024-06-13 19:14:22', 1),
-(11, 'city hospital', 'sharmi8n', '3652f360cb5771ca8c678e39b8dbbe22', 9310152246, '2024-06-13 21:19:45', 1),
-(12, 'city hospital', 'shivi', 'b29a2205cd481a9dcfbd98da8139b13f', 1234567897, '2024-06-13 21:24:41', 1);
+(1, 'AIIMS', 'hospitalxyz', 'pass456', 9876543210, '2024-06-13 19:14:22', 1),
+(2, 'Max Super Specialty Hospital', 'communityhospital', 'abc123', 5551234567, '2024-06-13 19:14:22', 1),
+(3, 'Shri Ganga Ram Hospital', 'citymedcenter', 'xyz789', 3339876543, '2024-06-13 19:14:22', 1),
+(4, 'Apollo Hospital', 'countygeneral', 'password', 1112223333, '2024-06-13 19:14:22', 1),
+(5, 'Safdarjung Hospital', 'metrohospital', 'secure123', 4445556666, '2024-06-13 19:14:22', 1),
+(6, 'Primus Super Specialty Hospital', 'unitymedical', 'hospital123', 8889990000, '2024-06-13 19:14:22', 1),
+(7, 'Manipal Hospital', 'sunrisehospital', 'sun123', 7778889999, '2024-06-13 19:14:22', 1),
+(8, 'Dharamshila Narayan Hospital', 'hopemedical', 'hope456', 2223334444, '2024-06-13 19:14:22', 1),
+(11, 'City Hospital', 'sharmi8n', '3652f360cb5771ca8c678e39b8dbbe22', 9310152246, '2024-06-13 21:19:45', 1),
+(12, 'Ram Manohar Lohia Hospital', 'shivi', 'b29a2205cd481a9dcfbd98da8139b13f', 1234567897, '2024-06-13 21:24:41', 1);
 
 -- --------------------------------------------------------
 
@@ -130,10 +130,10 @@ CREATE TABLE `bb_stock` (
 --
 
 INSERT INTO `bb_stock` (`stock_id`, `hospital_id`, `blood_id`, `volume`, `status`) VALUES
-(3, 1, 1, 150, 1),
-(4, 1, 2, 100, 1),
-(5, 2, 3, 200, 1),
-(6, 2, 4, 250, 1),
+(3, 1, 1, 400, 1),
+(4, 1, 2, 600, 1),
+(5, 2, 3, 500, 1),
+(6, 2, 4, 350, 1),
 (7, 3, 5, 180, 1),
 (8, 3, 6, 300, 1),
 (9, 4, 7, 220, 1),
